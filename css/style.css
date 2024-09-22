@@ -1,0 +1,47 @@
+.custom-navbar {
+    background-color: #008bdc;
+    /* Fondo azul */
+    padding: 15px;
+}
+
+.custom-navbar .navbar-text {
+    color: white;
+    font-weight: bold;
+}
+
+.custom-btn {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #008bdc;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 15px;
+    height: 50px;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: white;
+    margin-right: 15px;
+}
+
+.custom-logo-link {
+    display: inline-block;
+}
+
+.custom-logo-link img {
+    border-radius: 30px;
+    display: block;
+}
+
+.navbar-schedule {
+    font-size: 20px;
+}
+
+.clock-icon {
+    padding-right: 30px;
+}
