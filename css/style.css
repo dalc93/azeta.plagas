@@ -1,18 +1,17 @@
-.header__first-actions div {
+/* .header__first-actions div {
     padding-left: 20px;
     padding-right: 20px;
-}
+} */
 
 .header__first-action__text {
     color: white;
     font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
 }
 
 .custom-btn {
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     color: #008bdc;
     font-weight: bold;
@@ -25,20 +24,22 @@
 .social-icons i {
     font-size: 24px;
     color: white;
-    margin-right: 15px;
+    /* margin-right: 15px; */
 }
 
-.custom-logo-link {
-    display: inline-block;
+.social-icons ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    padding: 0 10px 0 10px;
 }
 
 .custom-logo-link img {
     border-radius: 30px;
     display: block;
-}
-
-.navbar-schedule {
-    font-size: 20px;
 }
 
 .clock-icon {
