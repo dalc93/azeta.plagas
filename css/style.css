@@ -295,6 +295,39 @@ a:active {
     letter-spacing: 1px;
 }
 
+.clients-carousel {
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+    mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+.clients-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    animation: clients-scroll 30s linear infinite;
+}
+
+.clients-track .client-logo {
+    margin-right: 30px;
+}
+
+.clients-carousel:hover .clients-track {
+    animation-play-state: paused;
+}
+
+@keyframes clients-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
 .client-logo {
     background: #ffffff;
     border-radius: 8px;
@@ -305,6 +338,8 @@ a:active {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 100px;
+    width: 180px;
+    flex: 0 0 auto;
 }
 
 .client-logo:hover {
